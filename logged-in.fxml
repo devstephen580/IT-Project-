@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox alignment="CENTER" fillHeight="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.loginpagewithstephen.LoggedInController">
+   <children>
+      <AnchorPane id="login_btn" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="592.0">
+         <children>
+            <Label fx:id="label_welcome" alignment="CENTER" layoutX="99.0" layoutY="122.0" prefHeight="47.0" prefWidth="401.0" text="Welcome to meenahCode." textAlignment="JUSTIFY">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="189.0" layoutY="248.0" prefHeight="34.0" prefWidth="68.0" text="Course:">
+               <font>
+                  <Font name="SansSerif Bold" size="15.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="logout_btn" buttonType="RAISED" layoutX="206.0" layoutY="404.0" prefHeight="34.0" prefWidth="94.0" style="-fx-background-color: #000000;" text="Logout" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold" size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <ImageView fitHeight="34.0" fitWidth="36.0" layoutX="279.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/java.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="197.0" layoutY="451.0" prefHeight="47.0" prefWidth="198.0" text="MeenaCode@support.com" textFill="#1c6bcc" underline="true">
+               <font>
+                  <Font name="SansSerif Regular" size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label id="intern_label" fx:id="label_intern_status" alignment="CENTER" layoutX="99.0" layoutY="165.0" prefHeight="47.0" prefWidth="401.0" text="Welcome, I see you're a returning intern!" textAlignment="JUSTIFY">
+               <font>
+                  <Font name="SansSerif Bold" size="16.0" />
+               </font>
+            </Label>
+            <JFXComboBox fx:id="courseComboBox" layoutX="266.0" layoutY="252.0" prefHeight="25.0" prefWidth="106.0" promptText="select course">
+               <items>
+                  <FXCollections fx:factory="observableArrayList">
+                     <String fx:value="COS 323" />
+                     <String fx:value="COS 442" />
+                     <String fx:value="CEDR 342" />
+                  </FXCollections>
+               </items>
+            </JFXComboBox>
+            <JFXButton fx:id="takeExam_btn" buttonType="RAISED" layoutX="310.0" layoutY="404.0" prefHeight="34.0" prefWidth="94.0" style="-fx-background-color: #000000;" text="Take Exam" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold" size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+         </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </AnchorPane>
+   </children>
+</HBox>

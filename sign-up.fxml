@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="623.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.loginpagewithstephen.SignUpController">
+         <children>
+            <Label alignment="CENTER" layoutX="168.0" layoutY="138.0" prefHeight="52.0" prefWidth="260.0" text="MeenahCode.">
+               <font>
+                  <Font name="Arial Black" size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="43.0" fitWidth="45.0" layoutX="276.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/java.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="username_image" fitHeight="32.0" fitWidth="36.0" layoutX="129.0" layoutY="207.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/account.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="tf_username" layoutX="177.0" layoutY="202.0" prefHeight="36.0" prefWidth="260.0" promptText="Username" />
+            <ImageView fx:id="password_image" fitHeight="36.0" fitWidth="43.0" layoutX="129.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/person.png" />
+               </image>
+            </ImageView>
+            <PasswordField fx:id="tf_password" layoutX="177.0" layoutY="262.0" prefHeight="36.0" prefWidth="260.0" promptText="Password" />
+            <JFXRadioButton fx:id="rb_return" layoutX="202.0" layoutY="325.0" text="Returning intern">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+               <selectedColor>
+                  <Color />
+               </selectedColor>
+            </JFXRadioButton>
+            <JFXRadioButton fx:id="rb_new" layoutX="202.0" layoutY="352.0" text="New intern">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+               <selectedColor>
+                  <Color />
+               </selectedColor>
+            </JFXRadioButton>
+            <JFXButton fx:id="signup_btn" buttonType="RAISED" layoutX="212.0" layoutY="406.0" prefHeight="32.0" prefWidth="86.0" style="-fx-background-color: #000000;" text="Sign up" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <JFXButton fx:id="cancel_btn" buttonType="RAISED" cancelButton="true" layoutX="316.0" layoutY="406.0" prefHeight="32.0" prefWidth="85.0" style="-fx-background-color: #000000;" text="Cancel" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="200.0" layoutY="472.0" prefHeight="17.0" prefWidth="157.0" text="Already a member?">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="login_btn" buttonType="RAISED" layoutX="343.0" layoutY="468.0" prefHeight="23.0" prefWidth="57.0" style="-fx-background-color: transparent;" text="Log in" textFill="#2c48e9" underline="true">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+         </children>
+</AnchorPane>

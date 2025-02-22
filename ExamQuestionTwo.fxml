@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="595.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.loginpagewithstephen.QuestionTwoController">
+      <children>
+         <Label layoutX="152.0" layoutY="76.0" prefHeight="46.0" prefWidth="158.0" text="Queston. 2/5">
+            <font>
+               <Font name="Arial Bold" size="14.0" />
+            </font></Label>
+         <JFXButton fx:id="prev_btn" buttonType="RAISED" layoutX="160.0" layoutY="382.0" prefHeight="31.0" prefWidth="88.0" style="-fx-background-color: #000000;" text="&lt;Previous" textFill="WHITE">
+            <font>
+               <Font name="SansSerif Bold" size="14.0" />
+            </font></JFXButton>
+         <JFXButton fx:id="next_btn" buttonType="RAISED" layoutX="256.0" layoutY="382.0" prefHeight="31.0" prefWidth="71.0" style="-fx-background-color: #000000;" text="Next&gt;" textFill="WHITE">
+            <font>
+               <Font name="SansSerif Bold" size="14.0" />
+            </font></JFXButton>
+         <JFXButton fx:id="submit_btn" buttonType="RAISED" layoutX="368.0" layoutY="382.0" prefHeight="31.0" prefWidth="71.0" style="-fx-background-color: #000000;" text="Submit" textFill="WHITE">
+            <font>
+               <Font name="SansSerif Bold" size="14.0" />
+            </font></JFXButton>
+         <JFXRadioButton fx:id="option_a" layoutX="198.0" layoutY="235.0" text="Emymekus">
+            <selectedColor>
+               <Color />
+            </selectedColor></JFXRadioButton>
+         <JFXRadioButton fx:id="option_b" layoutX="198.0" layoutY="261.0" text="Elvis">
+            <selectedColor>
+               <Color />
+            </selectedColor></JFXRadioButton>
+         <JFXRadioButton fx:id="option_c" layoutX="199.0" layoutY="287.0" text="Eze umu nwa!!!">
+            <selectedColor>
+               <Color />
+            </selectedColor></JFXRadioButton>
+         <JFXRadioButton fx:id="option_d" layoutX="199.0" layoutY="311.0" text="Nothing coin aka Primo">
+            <selectedColor>
+               <Color />
+            </selectedColor></JFXRadioButton>
+         <Label alignment="CENTER" layoutX="161.0" layoutY="231.0" prefHeight="25.0" prefWidth="23.0" text="A." />
+         <Label alignment="CENTER" layoutX="161.0" layoutY="257.0" prefHeight="25.0" prefWidth="23.0" text="B." />
+         <Label alignment="CENTER" layoutX="161.0" layoutY="283.0" prefHeight="25.0" prefWidth="23.0" text="C." />
+         <Label alignment="CENTER" layoutX="161.0" layoutY="307.0" prefHeight="25.0" prefWidth="23.0" text="D." />
+         <TextField editable="false" layoutX="150.0" layoutY="122.0" prefHeight="76.0" prefWidth="317.0" text="Who is the richest guy in Odim?" />
+         <JFXButton fx:id="question_1_btn" buttonType="RAISED" layoutX="191.0" layoutY="467.0" prefHeight="31.0" prefWidth="36.0" style="-fx-background-color: #000000;" text="1" textFill="WHITE" />
+         <JFXButton fx:id="question_2_btn" buttonType="RAISED" layoutX="234.0" layoutY="467.0" prefHeight="31.0" prefWidth="36.0" style="-fx-background-color: #000000;" text="2" textFill="WHITE" />
+         <JFXButton fx:id="question_3_btn" buttonType="RAISED" layoutX="279.0" layoutY="467.0" prefHeight="31.0" prefWidth="36.0" style="-fx-background-color: #000000;" text="3" textFill="WHITE" />
+         <JFXButton fx:id="question_4_btn" buttonType="RAISED" layoutX="321.0" layoutY="467.0" prefHeight="31.0" prefWidth="36.0" style="-fx-background-color: #000000;" text="4" textFill="WHITE" />
+         <JFXButton fx:id="question_5_btn" buttonType="RAISED" layoutX="365.0" layoutY="467.0" prefHeight="31.0" prefWidth="36.0" style="-fx-background-color: #000000;" text="5" textFill="WHITE" />
+         <Label fx:id="courseTitle_id" layoutX="151.0" layoutY="40.0" prefHeight="39.0" prefWidth="310.0" text="Course: Java Fundamentals">
+            <font>
+               <Font name="Arial Bold" size="18.0" />
+            </font>
+         </Label>
+         <Label fx:id="timer" alignment="CENTER" layoutX="241.0" layoutY="524.0" prefHeight="39.0" prefWidth="120.0" text="Time left: 10:00">
+            <font>
+               <Font name="Arial Bold" size="13.0" />
+            </font>
+         </Label>
+      </children>
+   </AnchorPane>

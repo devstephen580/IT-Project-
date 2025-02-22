@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="609.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.loginpagewithstephen.QuestionThreeController">
+   <children>
+      <Label layoutX="152.0" layoutY="74.0" prefHeight="46.0" prefWidth="121.0" text="Question. 3/5">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font></Label>
+      <JFXButton fx:id="prev_btn" buttonType="RAISED" layoutX="165.0" layoutY="390.0" prefHeight="31.0" prefWidth="79.0" style="-fx-background-color: #000000;" text="&lt;Previous" textFill="WHITE" />
+      <JFXButton fx:id="next_btn" buttonType="RAISED" layoutX="251.0" layoutY="390.0" prefHeight="31.0" prefWidth="71.0" style="-fx-background-color: #000000;" text="Next&gt;" textFill="WHITE" />
+      <JFXButton fx:id="submit_btn" buttonType="RAISED" layoutX="379.0" layoutY="390.0" prefHeight="31.0" prefWidth="71.0" style="-fx-background-color: #000000;" text="Submit" textFill="WHITE" />
+      <JFXRadioButton fx:id="option_a" layoutX="192.0" layoutY="235.0" text="System laboratory design" />
+      <JFXRadioButton fx:id="option_b" layoutX="192.0" layoutY="261.0" text="Activation system" />
+      <JFXRadioButton fx:id="option_c" layoutX="193.0" layoutY="287.0" text="Course structure of git" />
+      <JFXRadioButton fx:id="option_d" layoutX="193.0" layoutY="311.0" text="Cooling system" />
+      <Label alignment="CENTER" layoutX="155.0" layoutY="231.0" prefHeight="25.0" prefWidth="23.0" text="A." />
+      <Label alignment="CENTER" layoutX="155.0" layoutY="257.0" prefHeight="25.0" prefWidth="23.0" text="B." />
+      <Label alignment="CENTER" layoutX="155.0" layoutY="283.0" prefHeight="25.0" prefWidth="23.0" text="C." />
+      <Label alignment="CENTER" layoutX="155.0" layoutY="307.0" prefHeight="25.0" prefWidth="23.0" text="D." />
+      <TextField editable="false" layoutX="150.0" layoutY="122.0" prefHeight="76.0" prefWidth="313.0" text="How many primitives are there in java?" />
+      <JFXButton fx:id="question_1_btn" buttonType="RAISED" layoutX="191.0" layoutY="467.0" prefHeight="31.0" prefWidth="36.0" style="-fx-background-color: #000000;" text="1" textFill="WHITE" />
+      <JFXButton fx:id="question_2_btn" buttonType="RAISED" layoutX="234.0" layoutY="467.0" prefHeight="31.0" prefWidth="36.0" style="-fx-background-color: #000000;" text="2" textFill="WHITE" />
+      <JFXButton fx:id="question_3_btn" buttonType="RAISED" layoutX="279.0" layoutY="467.0" prefHeight="31.0" prefWidth="36.0" style="-fx-background-color: #000000;" text="3" textFill="WHITE" />
+      <JFXButton fx:id="question_4_btn" buttonType="RAISED" layoutX="321.0" layoutY="467.0" prefHeight="31.0" prefWidth="36.0" style="-fx-background-color: #000000;" text="4" textFill="WHITE" />
+      <JFXButton fx:id="question_5_btn" buttonType="RAISED" layoutX="365.0" layoutY="467.0" prefHeight="31.0" prefWidth="36.0" style="-fx-background-color: #000000;" text="5" textFill="WHITE" />
+      <Label fx:id="timer" alignment="CENTER" layoutX="237.0" layoutY="518.0" prefHeight="39.0" prefWidth="120.0" text="Time left: 10:00">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="courseTitle_id" layoutX="152.0" layoutY="40.0" prefHeight="39.0" prefWidth="310.0" text="Course: Java Fundamentals">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
